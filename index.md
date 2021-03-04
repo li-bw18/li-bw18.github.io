@@ -23,34 +23,3 @@
 清华大学的*C++程序设计基础*课程属于国家精品课、国家精品资源共享课。 
 
 本课程为高级语言程序设计的入门课程，完全针对零起点的学生，可作为其他信息类相关课程的基础课。目标是使学生通过本课程的学习，掌握面向对象程序设计的基本概念和方法、C++的基本语法和编程方法；学会使用集成开发环境；掌握程序调试方法；初步了解常用数据结构和非数值算法；初步了解C++标准模板库的使用方法。
-
-C++代码示例：
-
-```C++
-{
-    class fruit()
-    {
-    private: 
-        double fruit_weight;
-        double fruit_cost;
-    public:
-        fruit(double fw, double fc)
-        {
-            fruit_weight = fw;
-            fruit_cost = fc;
-        }
-        double show_fruit_weight()
-        {
-            return fruit_weight;
-        }
-        double show_fruit_cost()
-        {
-            return fruit_cost;
-        }
-        void change_data(double fw, double fc)
-        {
-            fruit_weight = fw;
-            fruit_cost = fc;
-        }      
-    }
-}
